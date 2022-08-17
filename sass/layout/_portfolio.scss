@@ -8,10 +8,7 @@
 
 .button-portfolio {
   padding: 6px 22px;
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
+  @include font(16px, 500, null, 1.62);
 
   transition: color var(--hover-time) var(--hover-bezier),
     background-color var(--hover-time) var(--hover-bezier),
@@ -64,8 +61,7 @@
   height: 100%;
   padding: 63px 24px;
 
-  font-size: 18px;
-  line-height: 1.56;
+  @include font(18px, null, null, 1.56);
 
   color: #ffffff;
   background-color: var(--portfolio-action-color);
@@ -90,15 +86,11 @@
   margin-bottom: 8px;
 
   color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  @include font(18px, 700, 0.06em, 2);
 }
 .proekt-work {
   margin-bottom: 0;
   margin-top: 0;
 
-  font-size: 16px;
-  line-height: 1.88;
+  @include font(16px, null, null, 1.88);
 }

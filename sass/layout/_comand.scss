@@ -24,9 +24,7 @@
 .name-comand {
   margin-bottom: 10px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
+  @include font(16px, 500, null, 1.2);
   text-align: center;
 
   color: var(--title-text-color);
@@ -35,8 +33,7 @@
   margin-top: 0;
   margin-bottom: 16px;
 
-  font-size: 16px;
-  line-height: 1.2;
+  @include font(16px, null, null, 1.2);
   text-align: center;
 }
 .social-list {
@@ -52,9 +49,7 @@
   width: calc((100% - 30px) / 4);
 }
 .social-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex();
 
   width: 44px;
   height: 44px;

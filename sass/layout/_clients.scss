@@ -6,9 +6,7 @@
   width: calc((100% - 150px) / 6);
 }
 .clients-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex();
 
   height: 92px;
 

@@ -46,9 +46,7 @@
   top: 8px;
   right: 8px;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex();
 
   width: 30px;
   height: 30px;
@@ -79,9 +77,7 @@
 
   text-align: center;
 
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+  @include font(20px, 700, null, 1.15);
 
   color: var(--title-text-color);
 }
@@ -97,9 +93,8 @@
 }
 .form-label {
   margin-bottom: 4px;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+
+  @include font(12px, null, 0.01em, 1.17);
 }
 .input-field {
   position: relative;
@@ -173,12 +168,9 @@
   margin-bottom: 30px;
 }
 .policy-label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex();
 
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(14px, null, null, 1.71);
 }
 .policy-icon {
   position: relative;

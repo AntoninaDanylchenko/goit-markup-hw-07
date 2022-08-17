@@ -24,10 +24,8 @@
 .logo-header {
   color: var(--black-color);
 
+  @include font(26px, 700, null, 1.2);
   font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
 }
 .logo-blue {
   color: var(--brand-color);
@@ -51,10 +49,7 @@
 
   color: var(--title-text-color);
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include font(14px, 500, 0.02em, 1.14);
 
   &:hover,
   &:focus {
@@ -98,10 +93,7 @@
 
   color: var(--text-color);
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include font(14px, 500, 0.02em, 1.14);
 
   &:hover,
   &:focus {

@@ -89,11 +89,11 @@ button {
   color: var(--white-color);
   background-color: var(--brand-color);
   border: 1px solid transparent;
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
   line-height: 1.88;
   text-align: center;
-  letter-spacing: 0.06em;
   font-family: inherit;
   border-radius: 4px;
 }
@@ -147,12 +147,12 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -177,8 +177,8 @@ button {
 .form-text {
   margin-bottom: 12px;
   text-align: center;
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   line-height: 1.15;
   color: var(--title-text-color);
 }
@@ -200,8 +200,8 @@ button {
 .form-label {
   margin-bottom: 4px;
   font-size: 12px;
-  line-height: 1.17;
   letter-spacing: 0.01em;
+  line-height: 1.17;
 }
 
 .input-field {
@@ -296,12 +296,12 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -389,10 +389,10 @@ button {
 
 .logo-header {
   color: var(--black-color);
-  font-family: "Raleway";
-  font-weight: 700;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.2;
+  font-family: "Raleway";
 }
 
 .logo-blue {
@@ -416,10 +416,10 @@ button {
   -webkit-transition: color var(--hover-time) var(--hover-bezier);
   transition: color var(--hover-time) var(--hover-bezier);
   color: var(--title-text-color);
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 500;
   letter-spacing: 0.02em;
+  line-height: 1.14;
 }
 .site-nav__link:hover, .site-nav__link:focus {
   color: var(--brand-color);
@@ -461,10 +461,10 @@ button {
   -webkit-transition: color var(--hover-time) var(--hover-bezier);
   transition: color var(--hover-time) var(--hover-bezier);
   color: var(--text-color);
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 500;
   letter-spacing: 0.02em;
+  line-height: 1.14;
 }
 .contacts__link:hover, .contacts__link:focus {
   color: var(--brand-color);
@@ -479,7 +479,7 @@ button {
   padding-top: 200px;
   padding-bottom: 200px;
   max-width: 1600px;
-  height: 600psx;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--dark-fon);
@@ -498,10 +498,10 @@ button {
   margin-right: auto;
   max-width: 696px;
   color: var(--white-color);
-  font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  font-weight: 900;
   letter-spacing: 0.06em;
+  line-height: 1.36;
   text-transform: uppercase;
 }
 .hero-button {
@@ -518,8 +518,8 @@ button {
 }
 .section-title {
   margin-bottom: 50px;
-  font-weight: 700;
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.17;
   text-align: center;
   color: var(--title-text-color);
@@ -540,12 +540,12 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 120px;
   width: 100%;
   margin-bottom: 30px;
@@ -554,8 +554,8 @@ button {
 
 .feature-title {
   margin-bottom: 10px;
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
@@ -577,18 +577,18 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   bottom: 0;
   width: 100%;
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--white-color);
@@ -623,8 +623,8 @@ button {
 
 .name-comand {
   margin-bottom: 10px;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.2;
   text-align: center;
   color: var(--title-text-color);
@@ -656,12 +656,12 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -694,12 +694,12 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 92px;
   color: var(--icon-color);
   border: 1px solid var(--icon-color);
@@ -741,8 +741,8 @@ button {
   display: block;
   color: var(--white-color);
   font-family: "Raleway";
-  font-weight: 700;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.2;
 }
 
@@ -765,8 +765,8 @@ button {
 }
 
 .adress {
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
 }
 
@@ -781,8 +781,8 @@ button {
 .footer-title {
   margin-top: 0;
   margin-bottom: 20px;
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: #ffffff;
@@ -792,12 +792,12 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -845,32 +845,32 @@ button {
   border-color: var(--brand-color);
 }
 .footer-input::-webkit-input-placeholder {
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.25;
   color: var(--footer-contact-color);
 }
 .footer-input::-moz-placeholder {
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.25;
   color: var(--footer-contact-color);
 }
 .footer-input:-ms-input-placeholder {
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.25;
   color: var(--footer-contact-color);
 }
 .footer-input::-ms-input-placeholder {
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.25;
   color: var(--footer-contact-color);
 }
 .footer-input::placeholder {
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.25;
   color: var(--footer-contact-color);
 }
@@ -902,8 +902,8 @@ button {
 
 .button-portfolio {
   padding: 6px 22px;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.62;
   -webkit-transition: color var(--hover-time) var(--hover-bezier), background-color var(--hover-time) var(--hover-bezier), -webkit-box-shadow var(--hover-time) var(--hover-bezier);
   transition: color var(--hover-time) var(--hover-bezier), background-color var(--hover-time) var(--hover-bezier), -webkit-box-shadow var(--hover-time) var(--hover-bezier);
@@ -984,10 +984,10 @@ button {
   margin-top: 0;
   margin-bottom: 8px;
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 18px;
-  line-height: 2;
+  font-weight: 700;
   letter-spacing: 0.06em;
+  line-height: 2;
 }
 
 .proekt-work {

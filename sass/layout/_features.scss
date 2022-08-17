@@ -6,9 +6,7 @@
   width: 270px;
 }
 .icon-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex();
 
   height: 120px;
   width: 100%;
@@ -20,9 +18,7 @@
 .feature-title {
   margin-bottom: 10px;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 700, null, 1.14);
   text-transform: uppercase;
 
   color: var(--title-text-color);
@@ -31,6 +27,5 @@
   margin-top: 0;
   margin-bottom: 0;
 
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(14px, null, null, 1.71);
 }
