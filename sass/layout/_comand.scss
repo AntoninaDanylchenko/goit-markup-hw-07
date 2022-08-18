@@ -1,15 +1,14 @@
 .comand {
   max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
+  @include centeredMarg;
 
   background-color: var(--comand-fon);
 }
-.comand-list {
+.comand__list {
   display: flex;
   gap: 30px;
 }
-.comand-item {
+.comand__item {
   width: calc((100% - 90px) / 4);
 
   background-color: var(--white-color);
@@ -17,11 +16,11 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.about-comand {
+.comand__description {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.name-comand {
+.comand__name {
   margin-bottom: 10px;
 
   @include font(16px, 500, null, 1.2);
@@ -29,45 +28,10 @@
 
   color: var(--title-text-color);
 }
-.work-comand {
+.comand__profesion {
   margin-top: 0;
   margin-bottom: 16px;
 
   @include font(16px, null, null, 1.2);
   text-align: center;
-}
-.social-list {
-  display: flex;
-  gap: 10px;
-
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 206px;
-}
-
-.social-item {
-  width: calc((100% - 30px) / 4);
-}
-.social-link {
-  @include centeredFlex();
-
-  width: 44px;
-  height: 44px;
-
-  border-radius: 50%;
-
-  transition: color var(--hover-time) var(--hover-bezier),
-    background-color var(--hover-time) var(--hover-bezier);
-
-  color: var(--icon-color);
-
-  &:hover {
-    background-color: var(--brand-color);
-    color: var(--white-color);
-  }
-}
-.social-icon {
-  width: 20px;
-
-  fill: currentColor;
 }

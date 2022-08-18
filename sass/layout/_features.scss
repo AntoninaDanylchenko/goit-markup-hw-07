@@ -15,7 +15,7 @@
   background-color: var(--comand-fon);
 }
 
-.feature-title {
+.feature__title {
   margin-bottom: 10px;
 
   @include font(14px, 700, null, 1.14);
@@ -23,7 +23,7 @@
 
   color: var(--title-text-color);
 }
-.feature-text {
+.feature__text {
   margin-top: 0;
   margin-bottom: 0;
 

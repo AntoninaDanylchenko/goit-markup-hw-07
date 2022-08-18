@@ -10,3 +10,8 @@
   letter-spacing: $ls;
   line-height: $lh;
 }
+
+@mixin centeredMarg() {
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -1,8 +1,13 @@
-.we-do-item {
+.we-do {
+  display: flex;
+  gap: 30px;
+}
+
+.we-do__item {
   position: relative;
 }
 
-.we-do-paragraf {
+.we-do__paragraf {
   position: absolute;
 
   @include centeredFlex();

@@ -1,7 +1,6 @@
-.page-footer {
+.footer {
   max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
+  @include centeredMarg;
 
   padding-top: 60px;
   padding-bottom: 60px;
@@ -15,7 +14,7 @@
   }
 }
 
-.footer-logo {
+.footer__logo {
   margin-bottom: 20px;
   display: block;
 
@@ -23,17 +22,10 @@
   font-family: 'Raleway';
   @include font(26px, 700, null, 1.2);
 }
-.footer-contacts {
-  transition: color var(--hover-time) var(--hover-bezier);
-
-  color: var(--footer-contact-color);
-
-  &:hover,
-  &:focus {
-    color: var(--brand-color);
-  }
+.adress {
+  @include font(14px, 400, null, 1.71);
 }
-.adress-link {
+.adress__link {
   transition: color var(--hover-time) var(--hover-bezier);
 
   color: var(--white-color);
@@ -43,17 +35,17 @@
     color: var(--brand-color);
   }
 }
-
-.adress {
-  @include font(14px, 400, null, 1.71);
+.adress__link--color {
+  color: var(--footer-contact-color);
 }
-.adress-item + .adress-item {
+
+.adress__item + .adress__item {
   margin-top: 9px;
 }
-.footer-social {
+.footer__social {
   margin-left: 70px;
 }
-.footer-title {
+.footer__title {
   margin-top: 0;
   margin-bottom: 20px;
 
@@ -62,26 +54,12 @@
 
   color: #ffffff;
 }
-.footer-social-link {
-  @include centeredFlex();
 
-  width: 44px;
-  height: 44px;
-
-  border-radius: 50%;
-
+.social__link--color {
   background-color: rgba(255, 255, 255, 0.1);
-  color: #fff;
-
-  transition: background-color var(--hover-time) var(--hover-bezier);
-
-  &:hover,
-  &:focus {
-    background-color: var(--brand-color);
-  }
 }
 
-.mailing-list {
+.mailing {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -93,7 +71,7 @@
   }
 }
 
-.footer-input {
+.mailing__input {
   margin: 0;
   padding: 15px 16px;
   width: 358px;
@@ -119,7 +97,7 @@
   }
 }
 
-.footer-button {
+.mailing__button {
   display: flex;
   justify-content: center;
   gap: 10px;

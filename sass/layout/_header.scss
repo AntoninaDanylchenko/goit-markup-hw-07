@@ -16,29 +16,29 @@
   }
 }
 
-.header-nav {
+.navigation {
   display: flex;
   align-items: center;
 }
 
-.logo-header {
+.logo {
   color: var(--black-color);
 
   @include font(26px, 700, null, 1.2);
   font-family: 'Raleway';
 }
-.logo-blue {
+.logo--brand {
   color: var(--brand-color);
 }
 /* site nav */
-.site-nav {
+.navigation__list {
   display: flex;
 
   margin-left: 93px;
   gap: 50px;
 }
 
-.site-nav__link {
+.navigation__link {
   display: block;
   position: relative;
 
@@ -57,7 +57,7 @@
   }
 }
 
-.site-nav__link--current {
+.navigation__link--current {
   color: var(--brand-color);
 
   &::after {
