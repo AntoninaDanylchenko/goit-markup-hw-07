@@ -238,18 +238,18 @@ button {
   fill: var(--brand-color);
 }
 
-.form-label {
+.form__label {
   margin-bottom: 4px;
   font-size: 12px;
   letter-spacing: 0.01em;
   line-height: 1.17;
 }
 
-.input-field {
+.form__icon-position {
   position: relative;
 }
 
-.form-input {
+.form__input {
   width: 100%;
   height: 40px;
   margin: 0;
@@ -261,11 +261,11 @@ button {
   -webkit-transition: border-color var(--hover-time) var(--hover-bezier);
   transition: border-color var(--hover-time) var(--hover-bezier);
 }
-.form-input:focus {
+.form__input:focus {
   border-color: var(--brand-color);
 }
 
-.form-icon {
+.form__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -278,11 +278,11 @@ button {
   transition: fill var(--hover-time) var(--hover-bezier);
 }
 
-.form-field--margin {
+.form__field--margin {
   margin-bottom: 20px;
 }
 
-.form-comment {
+.form__comment {
   width: 100%;
   height: 120px;
   margin: 0;
@@ -295,45 +295,45 @@ button {
   -webkit-transition: border-color var(--hover-time) var(--hover-bezier);
   transition: border-color var(--hover-time) var(--hover-bezier);
 }
-.form-comment:focus {
+.form__comment:focus {
   border-color: var(--brand-color);
 }
-.form-comment::-webkit-input-placeholder {
+.form__comment::-webkit-input-placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.form-comment::-moz-placeholder {
+.form__comment::-moz-placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.form-comment:-ms-input-placeholder {
+.form__comment:-ms-input-placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.form-comment::-ms-input-placeholder {
+.form__comment::-ms-input-placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.form-comment::placeholder {
+.form__comment::placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
-.policy-field {
+.policy {
   margin-bottom: 30px;
 }
 
-.policy-label {
+.policy__label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -347,7 +347,7 @@ button {
   line-height: 1.71;
 }
 
-.policy-icon {
+.policy__icon {
   position: relative;
   display: inline-block;
   margin-right: 7px;
@@ -358,12 +358,12 @@ button {
   -webkit-transition: background-color var(--hover-time) var(--hover-bezier), border-color var(--hover-time) var(--hover-bezier);
   transition: background-color var(--hover-time) var(--hover-bezier), border-color var(--hover-time) var(--hover-bezier);
 }
-.policy-input:checked + .policy-label .policy-icon {
+.policy__input:checked + .policy__label .policy__icon {
   background-color: var(--brand-color);
   border: none;
 }
 
-.check-icon {
+.policy__check {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -373,15 +373,15 @@ button {
   -webkit-transition: opacity var(--hover-time) var(--hover-bezier);
   transition: opacity var(--hover-time) var(--hover-bezier);
 }
-.policy-input:checked + .policy-label .check-icon {
+.policy__input:checked + .policy__label .policy__check {
   opacity: 1;
 }
 
-.policy-link {
+.policy__link {
   position: relative;
   color: var(--brand-color);
 }
-.policy-link::after {
+.policy__link::after {
   content: "";
   display: inline-block;
   position: absolute;
@@ -392,7 +392,7 @@ button {
   background-color: var(--brand-color);
 }
 
-.submit-button {
+.form__button {
   display: block;
   width: 200px;
   margin-right: auto;
@@ -807,7 +807,7 @@ button {
   width: 570px;
   margin-left: 93px;
 }
-.mailing > .form-field {
+.mailing > .form__field {
   margin-bottom: 0;
 }
 
