@@ -9,6 +9,8 @@
 .button-portfolio {
   padding: 6px 22px;
   @include font(16px, 500, null, 1.62);
+  background-color: var(--comand-fon);
+  color: var(--title-text-color);
 
   transition: color var(--hover-time) var(--hover-bezier),
     background-color var(--hover-time) var(--hover-bezier),

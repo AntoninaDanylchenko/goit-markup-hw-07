@@ -5,7 +5,7 @@
 .feature__item {
   width: 270px;
 }
-.icon-container {
+.feature__container {
   @include centeredFlex();
 
   height: 120px;
